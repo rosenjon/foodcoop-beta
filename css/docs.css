@@ -1,0 +1,12 @@
+
+
+/*list of pages_by_template*/
+.d_pages_by_template{
+  text-align: center;
+}
+.d_pages_by_template div{
+  margin-bottom: 24px;
+}
+.d_pages_by_template h5{
+  margin-bottom: 14px;
+}

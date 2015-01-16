@@ -1,0 +1,73 @@
+/*
+Hide code snippets on mobile devices
+XS
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+@media screen and (max-width: 767px) {
+
+	.webonly{
+		display: none !important;
+	}
+	#blog .entry-summary{
+		display: block;
+	}
+	.single #blog .entry-summary,
+	.page #blog .entry-summary{
+		display: none;
+	}
+	#blog .entry-content{
+		display: none;
+	}
+	.single #blog .entry-content,
+	.page #blog .entry-content{
+		display: block;
+	}
+
+}
+
+/*
+Tablets and up
+SM
+*/
+@media screen and (min-width: 768px) {
+	
+
+	#blog .entry-summary{
+		/*display: hidden;*/
+	}
+	.home .entry-summary{
+	  display: block;
+	}
+
+	.entry{
+	  margin:0 0 48px 0;
+	  padding:15px 0;
+	}
+	.entry-title{
+		margin-bottom:15px;
+	  font-size:28px;
+	}
+	.w1024,
+	.w770{
+	  margin-left: -80px;
+	  width:770px;
+	}
+}
+
+/*
+Tablets/desktops and up
+MD
+*/
+@media screen and (min-width: 992px) {
+
+	
+}
+
+
+/*
+Large desktops and up
+LG
+*/
+@media screen and (min-width: 1200px) {
+
+}
