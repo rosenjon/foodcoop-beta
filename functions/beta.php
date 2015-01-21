@@ -1,5 +1,6 @@
 <?php
 
+
 function get_page_template_name(){
 	if ( is_page() && $current_template = get_page_template_slug( get_queried_object_id() ) ){
     $templates = wp_get_theme()->get_page_templates();
@@ -55,6 +56,9 @@ EOF;
 
 function beta_bar(){
   $template_name = get_page_template_name();
+  if (empty($template_name)) {
+    $template_name = 'Default';
+  }
   $title = get_the_title( $ID );
   echo <<< EOF
   <div class="row">
