@@ -27,7 +27,6 @@
 					);
 					//wp_nav_menu( $args );
 				?>
-        <!-- Example -->
         <li class="hidden"><a href="#">Docs</a></li>
         <li class="dropdown hidden">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
