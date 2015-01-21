@@ -27,8 +27,8 @@
 					);
 					//wp_nav_menu( $args );
 				?>
-        <li><a href="#">Docs</a></li>
-        <li class="dropdown">
+        <li class="hidden"><a href="#">Docs</a></li>
+        <li class="dropdown hidden">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <?php page_templates_list(); ?>
