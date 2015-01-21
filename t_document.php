@@ -1,7 +1,7 @@
 <?php
 /* 
 Template Name: Document 
-Description: Something here.
+Description: 
 */
 get_header();?>
 
