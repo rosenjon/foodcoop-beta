@@ -38,6 +38,6 @@
       include INC . 'beta-bar.php';
       // Main Navbar
       include INC . 'nav-bar.php';
-      // Alert bar
-      include INC . 'alert-bar.php';
+      // Flash! Alert bar
+      // include INC . 'alert-bar.php';
     ?>
