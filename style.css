@@ -372,6 +372,9 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
   font-size:13px
 }
 
+.w300 {
+  width:300px;
+}
 
 /*Alert Bar*/
 #alert-bar{
