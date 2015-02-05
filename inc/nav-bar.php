@@ -3,7 +3,9 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
     	<a class="app-menu-trigger" href="#"><i class="fa fa-bars"></i></a>
-      <a class="navbar-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">Park Slope Food Coop</a>
+      
+      <a class="navbar-logo hidden" href="<?php echo esc_url( home_url( '/' ) ); ?>">Park Slope Food Coop</a>
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

@@ -84,7 +84,7 @@ section{
   color:rgba(43,160,90,1); /* GREEN */ 
   background: none;
   height: 55px;
-  background: lightGreen;
+  /*background: lightGreen;*/
 }
 .navbar-collapse{
   padding:0;
