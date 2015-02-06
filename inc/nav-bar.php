@@ -29,13 +29,7 @@
 					);
 					//wp_nav_menu( $args );
 				?>
-        <li class="hidden"><a href="#">Docs</a></li>
-        <li class="dropdown hidden">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <?php page_templates_list(); ?>
-          </ul>
-        </li>
+        <li class="log-in"><a href="#">Log in</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
