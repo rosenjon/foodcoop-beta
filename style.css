@@ -70,6 +70,10 @@ section{
   padding:45px 0;
 }
 
+section .heading{
+  text-align: center;
+}
+
 .container{
   /*max-width:400px;*/
 }
@@ -283,6 +287,57 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
   font-weight: 500; 
   /*color:#fff;*/
 }
+
+
+
+
+/*Mailing List Signup*/
+
+.mailing-list{
+  padding: 35px 0 45px 0;
+  text-align: center;
+  background: rgba(43,160,90,1);
+}
+.mailing-list-box{}
+
+.mailing-list h5{
+  margin:0 0 25px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.mailing-list h5 i{
+  margin-right: 5px;
+}
+.mailing-list label{
+  display: none;
+}
+.mailing-list .email{
+  font-weight: 600;
+}
+.mailing-list p{
+  margin:10px 0 0 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+.mailing-list .btn{
+  background: #F16B6D;
+  color:#fff;
+  font-weight: 600;
+  /*padding:6px 21px;*/
+}
+
+
+
+/*Hours and Location*/
+#hours-location{
+  background: #cae9fb;
+}
+#hours-location{}
+
+
 
 /*ENTRY // Blog Posts*/
 

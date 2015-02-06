@@ -4,7 +4,20 @@ get_header();?>
 
 
   <?php include(INC . 'head.php'); ?>
-  
+  <?php include(INC . 'mailing-list-signup.php'); ?>
+
+  <section id="hours-location" class="strip">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="heading">Hours &amp; Location</h3>
+          <h4 class="heading">Sub-heading</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <section id="t_<?php page_template_id(); ?>" class="main">
     <div class="container">
       
