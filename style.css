@@ -71,9 +71,13 @@ section{
 }
 
 section .heading{
+  margin-bottom:12px; 
   text-align: center;
 }
-
+section .sub-heading{
+  margin-bottom:12px;
+  text-align: center;
+}
 .container{
   /*max-width:400px;*/
 }
@@ -523,7 +527,27 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
 }
 
 
-
+#site-footer{
+  background: #444;
+  color: #fff;
+}
+#site-footer h3.logo{
+  margin-bottom: 20px;
+  width:150px;
+}
+#site-footer h4{
+  font-size: 21px;
+  font-weight: 500;
+}
+#site-footer h5{
+  margin-bottom: 10px;
+}
+#site-footer ul{
+  padding-left: 20px;
+}
+#site-footer li{
+  font-size: 16px;
+}
 /*Footer*/
 #footer{
   text-align: center;
