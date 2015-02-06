@@ -159,9 +159,34 @@ section{
 }
 
 
+/*Member Info*/
+#schedule-info-box{
+  background: rgba(43,160,90,1); /* GREEN */ 
+  color: #fff;
+}
+#schedule-info{
+  padding:14px 0;
+}
+#schedule-info h6{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+#schedule-info p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.work-week{
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+
 /*App Menu*/
 #app-menu{
-  background: rgba(43,160,90,1); /* GREEN */ 
+  background: rgba(43,160,90,.8); /* GREEN */ 
   color: #fff;
   position: fixed;
   top: 0;
@@ -232,6 +257,32 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
   box-shadow: -8px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
+
+/*Head*/
+#head{
+  padding-top: 30px;
+  padding-bottom: 120px;
+  /*background: #555;*/
+  /*background: #FFFEF5;*/
+}
+#head h1{
+  margin: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 900;
+}
+#head h1 img{
+  display: inline;
+  width: 140px;
+}
+#head h2{
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500; 
+  /*color:#fff;*/
+}
 
 /*ENTRY // Blog Posts*/
 

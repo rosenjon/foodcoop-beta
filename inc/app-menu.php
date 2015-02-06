@@ -1,5 +1,6 @@
 <nav id="app-menu" role="navigation">
-  <div class="container">
+  <div class="container-fluid">
+  	<?php include(INC . 'schedule-info-box.php'); ?>
 	  <div class="row">
 	  	<div class="search hidden">
 	  		<form class="navbar-form navbar-left" role="search">
