@@ -5,6 +5,12 @@ XS
 */
 @media screen and (max-width: 767px) {
 
+
+
+	.mailing-list .btn{
+  	width:100%;
+	}
+
 	.webonly{
 		display: none !important;
 	}
@@ -31,6 +37,17 @@ SM
 */
 @media screen and (min-width: 768px) {
 	
+	.mailing-list{
+	  text-align: center;
+	}
+	.mailing-list h5{
+	  font-size: 28px;
+	  font-weight: 700;
+	}
+	.mailing-list .email{
+  	width:485px;
+	}
+
 
 	#blog .entry-summary{
 		/*display: hidden;*/

@@ -1,8 +1,8 @@
 <section class="mailing-list">
 	<div class="container">
 		<div class="row">
-			<h5><i class="fa fa-envelope"></i> Subscribe to our mailing list</h5>
 			<div class="col-sm-8 col-sm-offset-2 mailing-list-box">
+				<h5><i class="fa fa-envelope"></i> Subscribe to our mailing list</h5>
 				<!-- Begin MailChimp Signup Form -->
 				<div id="mc_embed_signup">
 					<form action="//foodcoop.us8.list-manage.com/subscribe/post?u=db95c2efca0aa6dbb61511337&amp;id=7e1e347b3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate role="form">
