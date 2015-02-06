@@ -112,23 +112,26 @@ section .heading{
   margin-top: 9px;
   margin-left: 8px;
   color: rgba(43,160,90,1); /* GREEN */ 
+  color:#fff;
   float: left;
   text-align: center;
   width:35px;
   height:35px;
   border-radius: 40px;
-  -webkit-transition: background 0.15s ease-in-out;
-     -moz-transition: background 0.15s ease-in-out;
-       -o-transition: background 0.15s ease-in-out;
-          transition: background 0.15s ease-in-out;
+  background: rgba(255,255,255,.5);
+  -webkit-transition: all 0.15s ease-in-out;
+     -moz-transition: all 0.15s ease-in-out;
+       -o-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
 }
 .app-menu-trigger i{
   position: relative;
   top: 5px;
 }
 .app-menu-trigger:hover{
-  background: #fff;
+  background: rgba(255,255,255,.9);
   color: rgba(43,160,90,1); /* GREEN */ 
+  /*color: #fff;*/
 }
 .navbar .navbar-nav li a,
 .navbar .navbar-nav li a:hover {
@@ -262,15 +265,40 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
 }
 
 
+/*Main Navbar*/
+#main-navbar{
+  position: absolute;
+  width: 100%;
+  top:0;
+}
+
+
 /*Head*/
 #head{
-  padding-top: 30px;
+  padding-top: 0;
   padding-bottom: 120px;
+  min-height: 400px;
   /*background: #555;*/
   /*background: #FFFEF5;*/
 }
+#hero-image{
+  position: absolute;
+  z-index: -9999;
+  background-image: url('img/art/building.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width:100%;
+  min-height: 400px;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
 #head h1{
   margin: 0;
+  margin-top: 80px;
   margin-bottom: 25px;
   text-align: center;
   font-weight: 900;
@@ -282,10 +310,10 @@ body.menu-active div#app-wrapper .app-menu-trigger { left: 294px; }
 #head h2{
   margin: 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 24px;
   font-weight: 500; 
-  /*color:#fff;*/
+  color:#fff;
 }
 
 
